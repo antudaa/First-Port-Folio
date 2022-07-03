@@ -61,7 +61,7 @@ nav{
 }
 
 .logo{
-    color: rgb(85, 216, 85);
+    color: #0d233a;
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
@@ -78,7 +78,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: rgb(85, 216, 85);
+    color: #0d233a;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
@@ -89,7 +89,7 @@ nav ul li a:hover {
     transition: .4s;
 }
 
-.btn{
+/* .btn{
     
     background-color: #f9004d;
     color: white;
@@ -101,16 +101,16 @@ nav ul li a:hover {
     transition: transform .4s;
 
 
-}
+} */
 
 nav ul{
     flex: 1;
     text-align: right;
 }
 
-.btn:hover{
+/* .btn:hover{
     transform: scale(1.2);
-}
+} */
 
 .content{
     position: absolute;
@@ -121,19 +121,19 @@ nav ul{
 }
 
 h1{
-    color: rgb(85, 216, 85);
+    color: #0d233a;
     margin: 20px 0px 20px;
     font-size: 75px;
 }
 
 h3{
-    color: rgb(85, 216, 85);
+    color: #0d233a;
     font-size: 25px;
     margin-bottom: 50px;
 }
 
 h4{
-    color: rgb(85, 216, 85);
+    color: #0d233a;
     letter-spacing: 2px;
     font-size: 20px;
 }
