@@ -4,6 +4,7 @@
     font-family: 'Arial', sans-serif;
     box-sizing: border-box;
     /* background-color: black; */
+    
 }
 
 .hero{
@@ -306,6 +307,7 @@ button:hover{
     justify-content: center;
     align-items: center;
     min-height: 400px;
+    box-shadow: 5px 5px #191919;
 
 }
 
@@ -319,6 +321,7 @@ button:hover{
     position: relative;
     overflow:hidden;
     text-align: center;
+    
 
 }
 
@@ -439,7 +442,7 @@ footer p:nth-child(2){
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #f9004d;
+    background: #0d233a;
     border-radius: 50px;
     margin: 22px 10px;
     color: white;
