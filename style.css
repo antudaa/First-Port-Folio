@@ -184,33 +184,35 @@ h4{
 /* Section Two About Section  */
 
 .about{
-    padding-bottom: 100px;
-    padding-top: 100px;
     width: 100%;
+    height: 100vh;
     background-color: #eff4fd;
 }
 
 .about img{
     margin-right: 100px;
-    width: 500px;
-    height: 600;
+    width: 400px;
+    height: 500px;
 }
 
 .about-text{
     margin-left: 50px;
-    width: 500px;
+    width: 400px;
     height: 500px;
     text-align: left;
 
 }
 
 .main{
-    width: 1130px;
+    padding-bottom: 100px;
+    padding-top: 200px;
     max-width: 75px;
     margin: 0 auto ;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    width: 400px;
+    height: 500px;
 }
 
 .about-text h2{
