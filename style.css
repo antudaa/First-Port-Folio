@@ -90,28 +90,14 @@ nav ul li a:hover {
     transition: .4s;
 }
 
-/* .btn{
-    
-    background-color: #f9004d;
-    color: white;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 30px;
-    transition: transform .4s;
 
-
-} */
 
 nav ul{
     flex: 1;
     text-align: right;
 }
 
-/* .btn:hover{
-    transform: scale(1.2);
-} */
+
 
 .content{
     position: absolute;
@@ -195,36 +181,26 @@ h4{
     cursor: pointer;
 }
 
-/* @keyframes bouncing {
-    0% {
-        bottom: 0;
-        box-shadow: 0 0 5px rgb( 0, 0, 0, 0.5);
-    }
-
-    100%{
-        bottom: 50px;
-        box-shadow: 0 50px 50px rgb( 0, 0, 0, 0.1);
-    }
-} */
-
+/* Section Two About Section  */
 
 .about{
+    padding-bottom: 100px;
+    padding-top: 100px;
     width: 100%;
-    padding: 100px 30px;
     background-color: #eff4fd;
 }
 
 .about img{
-    height: auto;
-    width: 530px;
-    align-self: center;
-    
-
-
+    margin-right: 100px;
+    width: 500px;
+    height: 600;
 }
 
 .about-text{
+    margin-left: 50px;
     width: 500px;
+    height: 500px;
+    text-align: left;
 
 }
 
@@ -281,23 +257,19 @@ button:hover{
     cursor: pointer;
 }
 
+/* Section Three Projects Section  */
+
 .projects{
     background-color: #eff4fd;
-    box-shadow: #191919;
 }
 
-.service{
-    background: #101010;
-    width: 100%;
-    padding: 100px 0px;
-}
 
 .title h2{
     color: black;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
     font-size: 55px;
-    width: 1130px;
+    width: 530px;
     margin: 0px auto;
     text-align: center;
 }
@@ -307,29 +279,31 @@ button:hover{
     justify-content: center;
     align-items: center;
     min-height: 400px;
-    box-shadow: 5px 5px #191919;
+    margin-left: 60px;
+    margin-right: 60px;
+}
 
+.card h5 {
+    text-align: center;
 }
 
 .card{
-    height: 400px;
-    width: 365px;
-    padding: 10px 35px 100px 35px;
+    width: 300px;
+    height: 350px;
+    padding: 10px 35px 50px 35px;
     background: #191919;
     border-radius: 20px;
-    margin: 15px;
+    margin: 20px;
     position: relative;
     overflow:hidden;
-    text-align: center;
-    
-
+    text-align: justify;
 }
 
 .card i{
     font-size: 50px;
     display: block;
     text-align: center;
-    margin: 25px 0px;
+    margin: 15px 0px;
     color: #f9004d;
 }
 
@@ -343,11 +317,11 @@ h5{
 .par p{
     color: #fcfcfc;
     font-size: 16px;
-    line-height: 35px;
+    line-height: 25px;
+    padding-bottom: 20px;
 }
 
 .card .button{
-    
     background-color: #f9004d;
     color: white;
     text-decoration: none;
