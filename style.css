@@ -1,16 +1,15 @@
+
+/* Common Styles  */
 *{
     padding: 0;
     margin: 0;
     font-family: 'Arial', sans-serif;
-    box-sizing: border-box;
-    /* background-color: black; */
-    
+    box-sizing: border-box;    
 }
 
 .hero{
     height: 100%;
     width: 100%;
-    /* background-image: url(Images/TShirt.jpg); */
     background-size: cover;
     background-color: #eff4fd;
     background-position: center;
@@ -31,8 +30,8 @@
     cursor: pointer;
 }
 
-.images img{
-    height: 100%;
+/* .images img{
+    height: 60vh;
     position: absolute;
     left: 50%;
     bottom: 0;
@@ -50,7 +49,7 @@
 
 .images:hover .antu{
     left: 45%;
-}
+} */
 
 nav{
     display: flex;
@@ -181,6 +180,13 @@ h4{
     cursor: pointer;
 }
 
+@media only screen and (max-width: 400px){
+    .header-section {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 /* Section Two About Section  */
 
 .about{
@@ -190,32 +196,33 @@ h4{
 }
 
 .about img{
-    margin-right: 100px;
-    width: 400px;
-    height: 500px;
+    /* margin-right: 100px; */
+    width: 300px;
+    height: 350px;
 }
 
 .about-text{
     margin-left: 50px;
     width: 400px;
     height: 500px;
-    text-align: left;
+    text-align: justify;
 
 }
 
 .main{
     padding-bottom: 100px;
-    padding-top: 200px;
-    max-width: 75px;
+    padding-top: 80px;
     margin: 0 auto ;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 400px;
-    height: 500px;
+    align-items: justify;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
 }
 
-.about-text h2{
+.about h2{
+    padding-top: 100px;
+    text-align: center;
     color: black;
     font-size: 45px;
     text-transform: capitalize;
@@ -227,6 +234,7 @@ h4{
     letter-spacing: 2px;
     font-size: 18px;
     margin-bottom: 10px;
+    padding-bottom: 20px;
     text-transform: capitalize;
 
 }
@@ -234,6 +242,10 @@ h4{
 
 .about-text p{
     color: black;
+    height: 250px;
+    text-align: justify;
+    width: 200px;
+    overflow: hidden;
     letter-spacing: 1px;
     line-height: 18px;
     font-size: 17px;
@@ -258,11 +270,29 @@ button:hover{
     border: 2px solid #f9004d;
     cursor: pointer;
 }
+@media only screen and (max-width:400px) {
+    .main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .secound-section-img img {
+        width: 200;
+        height: 250px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+}
 
 /* Section Three Projects Section  */
 
 .projects{
     background-color: #eff4fd;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -341,6 +371,61 @@ h5{
     cursor: pointer;
 }
 
+@media only screen and (max-width: 400px){
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects .title h2{
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        width: 250px;
+        height: 300px;
+    }
+
+    .card i{
+        font-size: 30px;
+        display: block;
+        text-align: center;
+        margin: 15px 0px;
+        color: #f9004d;
+    }
+    
+    h5{
+        color: white;
+        font-size: 18px;
+        margin-bottom: 10px;
+    
+    }
+    
+    .par p{
+        color: #fcfcfc;
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 15px;
+    }
+    
+    .card .button{
+        background-color: #f9004d;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        /* font-weight: bold; */
+        padding: 5px 10px;
+        border-radius: 30px;
+        transition: .4s;
+    
+    }
+    
+}
+
+/* Achievement Section End  */
+
 .contact-me{
     width: 100%;
     height: 290px;
@@ -378,6 +463,15 @@ h5{
     color: black;
 
 }
+
+@media only screen and (max-width: 400px) {
+    .contact-me p{
+        width: 70%;
+        text-align: center;
+    }
+}
+
+/* Footer Section  */
 
 footer{
     position: relative;
