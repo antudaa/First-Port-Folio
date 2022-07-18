@@ -181,10 +181,46 @@ h4{
 }
 
 @media only screen and (max-width: 400px){
-    .header-section {
+    .hero ul {
         display: flex;
         flex-direction: column;
     }
+    h1{
+        color: #0d233a;
+        /* margin: 20px 0px 20px; */
+        font-size: 45px;
+    }
+    
+    h3{
+        color: #0d233a;
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    
+    h4{
+        color: #0d233a;
+        letter-spacing: 1px;
+        font-size: 16px;
+    }
+    .newsletter form {
+        max-width: 60%;
+    }
+    
+    .newsletter form input:first-child{
+        width: 60%;
+        padding: 15px 220px 12px 12px;
+        
+    }
+    
+    .newsletter form input:last-child{
+        right: -195px;
+    }
+
+    .butt {
+        align-items: center;
+    }
+    
+    
 }
 
 /* Section Two About Section  */
@@ -283,8 +319,11 @@ button:hover{
         height: 250px;
         padding-top: 30px;
         padding-bottom: 30px;
-
     }
+    .about-text {
+        padding-left: 75px;
+    }
+
 }
 
 /* Section Three Projects Section  */
